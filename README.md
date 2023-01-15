@@ -1,5 +1,3 @@
-# hass-pyscript-android-tv-control
-Add some controls to send commands to android TV via adb commands
 [![License][licensing-shield]](LICENSE)
 
 # Home Assistant Android TV Controls
