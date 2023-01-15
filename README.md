@@ -16,6 +16,7 @@ For more info [click here][android-tv-hass-adb]
 
 ## Requirements
 
+- [Android TV Integration](https://www.home-assistant.io/integrations/androidtv/)
 - HACS ([docs][hacs-docs])
     - PyScript Integration ([docs][pyscript-docs])
       
@@ -28,11 +29,11 @@ For more info [click here][android-tv-hass-adb]
    ```
 2. **Add `android-tv-adb` in your `pyscript/config.yaml`**
    ```yaml
-   # /config/pyscript/config.yaml
-   allow_all_imports: true
-   apps:
-     # (...)
-     android-tv-adb:
+   # config/configuration.yaml
+   pyscript: 
+     apps:
+       # (...)
+       android-tv-adb:
    ```
 3. **Link the files in the `pyscript` directory**
    ```sh
@@ -98,7 +99,7 @@ If you have any problem, remarks or suggestion feel free to open an issue.
 
 
 
-[android-tv-hass-adb] https://www.home-assistant.io/integrations/androidtv/#androidtvadb_command
+[android-tv-hass-adb]: https://www.home-assistant.io/integrations/androidtv/#androidtvadb_command
 [licensing-shield]: https://img.shields.io/github/license/Vinalti/hss-pyscript-android-tv-control?style=flat-square
 [hacs-docs]: https://hacs.xyz/docs/setup/prerequisites
 [pyscript-docs]: https://hacs-pyscript.readthedocs.io/en/latest/installation.html
