@@ -98,6 +98,6 @@ If you have any problem, remarks or suggestion feel free to open an issue.
 
 
 [android-tv-hass-adb]: https://www.home-assistant.io/integrations/androidtv/#androidtvadb_command
-[licensing-shield]: https://img.shields.io/github/license/Vinalti/hss-pyscript-android-tv-control?style=flat-square
+[licensing-shield]: https://img.shields.io/github/license/Vinalti/hass-pyscript-android-tv-control?style=flat-square
 [hacs-docs]: https://hacs.xyz/docs/setup/prerequisites
 [pyscript-docs]: https://hacs-pyscript.readthedocs.io/en/latest/installation.html
